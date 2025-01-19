@@ -3,7 +3,7 @@ const config = require('./config.json');
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent, GatewayIntentBits.GuildMembers] });
 
 let messageCount = {};
-
+ 
 client.on('ready', () => {
   console.log(`Bot connecté en tant que ${client.user.tag}`);
 });
