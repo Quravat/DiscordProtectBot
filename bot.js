@@ -22,7 +22,7 @@ client.on('messageCreate', async (message) => {
       user.count = 1;
       user.timer = Date.now();
     }
-
+ 
     if (user.count > 5) {
       message.delete();
       message.channel.send(`${message.author.tag} a été mis en timeout pour spam !`);
