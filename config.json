@@ -1,0 +1,12 @@
+{
+    "token": "",
+    "antiSpam": true,
+    "antiRaid": true,
+    "antiBot": true,
+    "salonLogs": {
+      "antiBot": "",
+      "antiSpam": "",
+      "antiRaid": "",
+      "terminal": ""
+    }
+  }  
